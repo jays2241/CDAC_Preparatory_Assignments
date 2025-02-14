@@ -12,7 +12,7 @@ int main(void){
     int digit = 0;
     int other = 0;
 
-    for (int i = 0; i < strlen(in); i++)
+    for (int i = 0; i < in[i]!='\0'; i++)
     {
         switch (isupperlowerdigit(in[i]))
         {
